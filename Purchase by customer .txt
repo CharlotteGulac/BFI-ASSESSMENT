@@ -1,0 +1,4 @@
+SELECT tb_transactions.product_id, tb_customers.fname, tb_transactions.Amount
+FROM tb_transactions
+RIGHT JOIN tb_customers ON tb_transactions.customer_id = tb_customers.customer_id
+ORDER BY tb_customers.fname;

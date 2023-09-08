@@ -1,0 +1,7 @@
+CREATE TABLE tb_customers ( customer_id int NOT NULL, fname varchar(255), Address varchar(255), PRIMARY KEY (customer_id) )
+
+INSERT INTO tb_customers (customer_id, fname, Address)
+VALUES ('1001', 'Jon Snow', 'Winterfell Northern Realm, Westeros'),
+		('1002', 'John Doe', 'Kings Landing, Westeros'),
+        ('1003', 'Karen Shade', 'Riverrun, Westeros')
+;

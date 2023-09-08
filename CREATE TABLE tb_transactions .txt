@@ -1,0 +1,7 @@
+CREATE TABLE tb_transactions ( transaction_id int NOT NULL, product_id int, customer_id int, Amount DECIMAL(10, 2), Time_stamp TIMESTAMP, PRIMARY KEY (transaction_id) )
+
+INSERT INTO tb_transactions (transaction_id, product_id, customer_id, Amount,Time_stamp )
+VALUES ('1', '101', '1001', '50.00', '2023-06-01 10:00:00'),
+	('2', '102', '1002', '75.00', '2023-06-02 11:30:00'),
+    ('3', '105', '1005', '30.00', '2023-06-10 15:45:00')
+;

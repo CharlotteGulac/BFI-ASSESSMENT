@@ -1,0 +1,6 @@
+INSERT INTO tb_customers (customer_id, fname, Address)
+VALUES ('1005', 'Jane Doe', 'Winterfell Northern Realm, Westeros')
+
+
+ALTER TABLE tb_transactions
+ADD FOREIGN KEY (customer_id) REFERENCES tb_customers(customer_id);
